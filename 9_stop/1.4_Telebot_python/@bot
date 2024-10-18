@@ -1,0 +1,29 @@
+@bot.message_handler(commands=['stop'])
+
+@bot.message_handler(content_types=['text'])
+
+    @bot.message_handler(func=lambda message: message.text == 'Выбрать пиццу')
+
+
+@bot.callback_query_handler(func=lambda call:True)   
+@bot.callback_query_handler(func=lambda call: call.data in ['good', 'bad', 'good1', 'bad1'])
+
+
+
+
+
+
+@bot.message_handler(content_types=['text', 'sticker', 'video', 'photo', 'voice', 'audio', 'document', 'location'])
+
+
+    def callback(call):
+        print(call.message.text)
+        if call.message.text == 'Вас приветствует бот расписания занятий ОГУ им. И.С.Тургенева!':
+            #bot.send_message(call.message.chat.id, call.data)
+            kurslist_callback(call)
+        elif call.message.text == 'Выберите курс':
+            callback_grouplist(call)
+        elif call.message.text == 'Выберите группу':
+            callback_shedule(call)
+        else:
+            start_message(call.message)

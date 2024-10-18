@@ -1,0 +1,2 @@
+- Пошаговая инструкция: - https://medium.com/@acharyaaarush879/deploy-your-flask-app-on-render-c452a7406fb2
+    - решение проблемы 127 - https://stackoverflow.com/questions/74645919/bin-bash-line-1-gunicorn-command-not-found

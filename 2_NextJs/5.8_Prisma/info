@@ -1,0 +1,34 @@
+
+
+1_ npx prisma migrate dev --name init // создать таблицы из shema в новой базе данных
+2_ prisma generate // каждый раз при внесении изменений в prisma shame нужно повторно генерировать  Prisma Client
+- npx prisma db push // https://medium.com/@2018.itsuki/postgresql-with-next-js-and-prisma-44f66a05378a
+  - данная команда добавила в существующую БД PostGreSQL новые поля НО если в БД уже есть записи нужно добавить значения по умолчанию для новых полей
+3_ prisma_postgres_types:
+    - Float // для координат
+    - Int // для цифр
+    - String // для остального
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Errors:
+
+  1_ Property 'errors' does not exist on type 'PrismaClient<PrismaClientOptions, nev
+    - npx prisma generate
+    - vsc reloading

@@ -1,0 +1,17 @@
+[Unit]
+Description=telebot7.kopi34.ru.gunicorn daemon
+Requires=telebot7.kopi34.ru.gunicorn.socket
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/app/telebot-kopi34/telebot_kopi34/
+ExecStart=/app/telebot-kopi34/venv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/telebot7.kopi34.ru.gunicorn.sock \
+          telebot_kopi34.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,3 @@
+- robots.txt
+- htaccess
+- sitemap

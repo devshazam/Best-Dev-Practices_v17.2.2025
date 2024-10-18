@@ -1,0 +1,8 @@
+[Unit]
+Description=telebot7.kopi34.ru.gunicorn socket
+
+[Socket]
+ListenStream=/run/telebot7.kopi34.ru.gunicorn.sock
+
+[Install]
+WantedBy=sockets.target

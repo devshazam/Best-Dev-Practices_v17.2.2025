@@ -1,0 +1,12 @@
+bot.reply_to(message, f'''
+    📊 Statistics 📊
+
+    🎧 All music : {count_songs[0]}
+    👥 All users : {Get_total_users()}
+    👥 Users : {Get_users_count('members')}
+    👥 Inline users : {Get_users_count('inline_members')}
+    🔆 Admins : {len([SUDO])}
+
+    [Github](https://github.com/AnonC0DER/NovaMusic)''', parse_mode='markdown')
+
+            # bot.sendMessage(chatId, '<b>TEST</b>', {parse_mode: 'HTML'})

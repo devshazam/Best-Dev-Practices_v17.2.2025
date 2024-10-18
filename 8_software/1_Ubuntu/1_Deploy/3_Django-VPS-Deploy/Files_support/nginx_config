@@ -1,0 +1,45 @@
+server{
+    
+    server_name telebot7.kopi34.ru www.telebot7.kopi34.ru;
+    
+    location = /favicon.ico { access_log off; log_not_found off; }
+    
+    location / {
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_pass http://unix:/run/telebot.gunicorn.sock;
+    }
+
+    location  /static/ {
+        root /app/telebot-kopi34/telebot_kopi34;
+    }    
+}
+
+
+
+server{
+    listen 80;
+    listen [::]:80;
+    
+    server_name your_domain www.your_domain;
+    
+    location = /favicon.ico { access_log off; log_not_found off; }
+    
+    location / {
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_pass http://unix:/run/your_domain.gunicorn.sock;
+    }
+    
+    location  /static/ {
+        root /var/www/project_folder_name;
+    }
+
+    location  /media/ {
+        root /var/www/project_folder_name;
+    }
+}

@@ -1,0 +1,21 @@
+# Образ который качаем
+FROM node:14.21.1-alpine
+
+# Папка от корня где исполнять команды !!! Можно менять после команды
+WORKDIR /app/t1
+
+# Команда копировать что - в папку
+COPY package*.json ./
+
+# исполнение команд в Shell format = прямая запись. "--silent" - без вывода результатов в консоль
+RUN npm install --silent
+
+#install nodemon to provide hot-reloading functionality.
+RUN npm install nodemon --save-dev
+COPY . ./
+
+# создание файла .dockerenv из из которого можно использовать переменные
+ENV MY_NAME="John Doe"
+
+# исполнение команды после создания контейнера
+CMD ["nodemon", "--exec", "npm", "start"]

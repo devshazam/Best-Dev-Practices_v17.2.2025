@@ -1,0 +1,1 @@
+npm i react-hook-form @tanstack/react-query zod @hookform/resolvers
