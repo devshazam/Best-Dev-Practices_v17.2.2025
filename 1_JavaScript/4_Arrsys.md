@@ -20,13 +20,13 @@ Array.from('abcde')
 Array(n).fill(0)
 new Array(3)
 
-METHODS ##################################################################################
+# METHODS ##################################################################################
 
-delete -> return MODIFIED SAME ARRAY
+## delete -> return MODIFIED SAME ARRAY
         let x1 = [1, 'd']
         delete x1[0] // return [undefined, 'd']
 
-Array.isArray() - return BOOLEAN
+## Array.isArray() - return BOOLEAN
         let fruits = ["Banana", "Orange", "Apple", "Mango"];
         let result = Array.isArray(fruits); // return true
 
@@ -41,7 +41,7 @@ Array.isArray() - return BOOLEAN
         let arr = [1, 2, 3, 4, 5];
         arr.forEach((elem) => {console.log(elem);});
 
-
+массив.findIndex(функция);
 reduce() -> return DIFFERENT NEW VALUE
         let numbers = [175, 50, 25];
         let NEW = numbers.reduce((total, num) => total - num, 0); // return 100

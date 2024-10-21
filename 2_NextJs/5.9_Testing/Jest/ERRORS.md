@@ -1,0 +1,3 @@
+- `SyntaxError: Cannot use import statement outside a module`
+    - ОПИСАНИЕ: в тестах по умолчанию common-style import
+    - РЕШЕНИЕ: добавить   moduleNameMapper: { '^@/(.*)$': '<rootDir>/$1', }, в jest.cconfig.ts

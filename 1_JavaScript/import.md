@@ -1,33 +1,16 @@
-```js
+# ES6 style
+        export let x1 = 1;
+            import { x1 } from './Test';
 
-// COMMON (NPM_OLD)
-    const math = require('./math'); // импортирует объект math
-        const {square, cube} = require('./math'); // деструктуризация объекта
+            import * as test from  './Test.js';
 
-        // ===========================>
-
-        module.exports = math;
-        module.exports = {square, cube};
-
-
-
-// JS_ES6 ================================================================================================
-        import {varName1, varName2} from './Test.js'; // можно импортировать только те елементы которые нужны.
-            import * as test from  './Test.js'; // импортирует объект test, c елементами varName1, varName2
-        // Import default:
+        export default function getName(){}
             import varName from './Test.js'; // имя импрота (varName) не имеет значение
 
-        // ===========================>
 
-        // befor
-        export let m1 = ...
-        export function funName
-        // after
-        export {m1, funName, ClassName}; //
-        // evport default:
-            // befor
-            export default let m1...
-            export default function...
-            // after
-            export default <varName>;
-    
+# COMMON style
+        module.exports = math;
+            const math = require('./math'); // импортирует объект math
+        
+        module.exports = {square, cube};
+            const {square, cube} = require('./math'); // деструктуризация объекта
