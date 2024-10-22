@@ -6,10 +6,3 @@
   SCREAMING_SNAKE_CASE
   UPPER_SNAKE_CASE 
   
-# 1 Naming Convention:
-
-# 1 Naming Convention:
-
-# 1 Naming Convention:
-
-# 1 Naming Convention:

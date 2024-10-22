@@ -2,5 +2,7 @@
     - editor.wordSeparators
 - Кастомизация цветов в маркдаун
     - editor.tokenColorCustomizations
-- AueoIndent code
+- AutoIndent code
     - On Windows Shift + Alt + F
+- join strings to one line
+    - alt + D

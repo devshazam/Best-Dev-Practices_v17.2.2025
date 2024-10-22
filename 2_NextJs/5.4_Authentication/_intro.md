@@ -1,3 +1,4 @@
+# 
 - http://localhost:3000/api/auth/callback/credentials
     - по умолчанию 
             - /api/auth/callback/credentials - ответ с данными от формы
