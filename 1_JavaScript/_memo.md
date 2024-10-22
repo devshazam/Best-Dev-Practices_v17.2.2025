@@ -1,5 +1,13 @@
-
-
+## Convert to other type
+    - toBoolean
+        !!string; // true
+        Boolean(string); // true
+    - toNumber
+        ++string;
+        Number(string);
+    - toString
+        `` + number;
+        String(number);
 ## Loops 
     for (let x; x <= 3; x++) { ... } // 
 
@@ -28,17 +36,17 @@
         - const [one, two, ...rest] = oneArray;
 
 ## деструктуризация 
-    - Массивы
-        - const [one, two] = oneArray // в пременные one и two запишутся первые два елемента массива
-        - const [, , one, two] = oneArray // в пременные one и two запишутся 3 и 4 елементы массива
-        - const [one, two, ...rest] = oneArray // в пременные one и two запишутся первые два елемента массива, а остальные в переменную rest
-        - x12[x5[1]] = [x5[0], ...(x12[x5[1]] ? x12[x5[1]] : [])]
-
     - Объекты
         - const {one, two} = oneObject // переменные только под темиже
         - const {one, two, outside} = oneObject // если имени outside нет в объекте, то outside = undefined
         - const {one: two} = oneObject // alias - меняет имя переменной при деструктуризации
-        - x12[x5[1]] = [x5[0], ...(x12[x5[1]] ? x12[x5[1]] : {})]
+        - const {name, age, ...contacts} = tom;
+        - let display = ({firstName, lastName}) => console.log(`${firstName} ${lastName}`);
+        
+    - Массивы
+        - const [one, two] = oneArray // в пременные one и two запишутся первые два елемента массива
+        - const [, , one, two] = oneArray // в пременные one и two запишутся 3 и 4 елементы массива
+        - const [one, two, ...rest] = oneArray // в пременные one и two запишутся первые два елемента массива, а остальные в переменную rest
 
 ## JSON
     let myJson = JSON.stringify(myObject);
