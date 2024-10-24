@@ -1,5 +1,4 @@
 ## Fetch: 
-(https://blog.designly.biz/next-js-14-data-fetching-paradigms-client-vs-servers)
     - const { data, error, isLoading } = useSWR(key, fetcher)
         - Обычно в качестве ключа передают url, потому что он уникален
         - data - данные имеют три состояния

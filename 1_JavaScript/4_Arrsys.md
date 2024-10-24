@@ -30,19 +30,18 @@ new Array(3)
         let fruits = ["Banana", "Orange", "Apple", "Mango"];
         let result = Array.isArray(fruits); // return true
 
-⛔map() -> return DIFFERENT NEW ARRAY
+## ⛔map() -> return DIFFERENT NEW ARRAY
         let numbers = [65, 44, 12, 4];
         let x1 = numbers.map((elem, index) => { return elem * 10}) // return [650, 440, 120, 40]
         ⛔БЕЗ присваивания "let x1 = " цикл map может давать ошибку!!⛔
 
-⛔forEach() -> return void
+## ⛔forEach() -> return void
         ⛔break не работвает!
         ⛔return не работвает!
         let arr = [1, 2, 3, 4, 5];
         arr.forEach((elem) => {console.log(elem);});
 
-массив.findIndex(функция);
-reduce() -> return DIFFERENT NEW VALUE
+## reduce() -> return DIFFERENT NEW VALUE
         let numbers = [175, 50, 25];
         let NEW = numbers.reduce((total, num) => total - num, 0); // return 100
 
@@ -61,9 +60,11 @@ filter() -> return DIFFERENT NEW VALUE
         let ages = [32, 33, 16, 40];
         let x1 = ages.filter(age => age >= 18); // x1 -> [32, 33, 40]
 
-indexOf() -> return NUMBER
+indexOf() -> return NUMBER(index | -1)
         let fruits = ["Banana", "Orange", "Apple", "Mango"];
         let index = fruits.indexOf("Apple"); // return 2
+        
+массив.findIndex(функция);
 
 
 
@@ -102,7 +103,7 @@ shift() -> return MODIFIED SAME ARRAY
 unshift() -> return MODIFIED SAME ARRAY
         let arr = ['a', 'b', 'c', 'd', 'e'];
         arr.unshift('1', '2');
-        console.log(arr);
+        console.log(arr); // return 
 
 
 
