@@ -9,7 +9,7 @@ systemctl
     sudo systemctl restart telebot7.kopi34.ru.gunicorn.service
     sudo systemctl daemon-reload
 
-    sudo systemctl status <your>.service 
+    sudo systemctl status telebot7.kopi34.ru.gunicorn.service 
 
 ufw
     watch tail -n 15 /var/log/auth.log

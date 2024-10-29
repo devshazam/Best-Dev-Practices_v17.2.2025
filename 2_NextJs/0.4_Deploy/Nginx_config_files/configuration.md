@@ -1,5 +1,5 @@
 
-RESTARTING: 
+# RESTARTING: 
         https://owlhowto.com/how-to-increase-file-upload-size-on-nginx/
     sudo nginx -t // check nginx syntax
     sudo nginx -s reload // only reload nginx.conf without restart nginx server

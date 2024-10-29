@@ -20,15 +20,12 @@
 
 
 ## Conditions 
-    let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
+    - if ( (e.ctrlKey || e.metaKey) && (e.key === 'Enter' || e.key === 'NumpadEnter') )
+    - let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
 
 ## Timeout
     setTimeout(function() {alert('!'); }, 3000); 
     
-## Spred
-    Spred - разбить массив (объект) на елементы
-        - func(...[1, 2, 3, 4, 5]); //! func(1,2,3,4,5);
-        - const newObject = {...oneObject, ...twoObject};
         
 ## Rest
     Rest

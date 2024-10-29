@@ -45,6 +45,11 @@ new Array(3)
         let numbers = [175, 50, 25];
         let NEW = numbers.reduce((total, num) => total - num, 0); // return 100
 
+find() -> return NEW ELEMENT
+        Найдет первое совпадение в массиве согласно колбеку:
+        let res = arr.find(function(currentValue) { return currentValue > 0; });
+        console.log(res) // return 1
+
 sort() -> return MODIFIED SAME ARRAY
         Сортирует массив по умолчанию .sort() если массив начинается с 1 - иначе:
         var array = [140000, 104, 99];
