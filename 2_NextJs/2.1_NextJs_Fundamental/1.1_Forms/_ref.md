@@ -2,3 +2,5 @@
     - https://dev.to/ajones_codes/a-better-guide-to-forms-in-react-47f0
 - Form on React: Best Practices
     - https://daily.dev/blog/form-on-react-best-practices
+- React Hook Form _ nested
+    - https://jujuontheweb.medium.com/how-to-use-react-hook-form-with-your-custom-form-components-a86a1a77cf3c

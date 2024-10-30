@@ -1,0 +1,2 @@
+- AUTH0 - защита страниц
+    - https://medium.com/@turingvang/auth0-and-next-js-05d855c4dfc4

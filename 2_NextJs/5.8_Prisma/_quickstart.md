@@ -5,7 +5,8 @@
       - DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
     - Создание database schema
 
-  3/3 `npx prisma migrate dev --name init` - миграция
+  3/3 
+    $ npx prisma migrate dev --name init - миграция
     - Создаст файл миграции в каталоге prisma/migrations. 
     - Создаст файл миграции SQL для базы данных. 
     - Запустит Prisma Generate под капотом (который установил пакет @prisma/client и создал специальный клиентский API Prisma на основе ваших моделей).
