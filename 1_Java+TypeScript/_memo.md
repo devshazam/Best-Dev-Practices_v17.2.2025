@@ -32,7 +32,7 @@
         - func(a, b, ...rest);
         - const [one, two, ...rest] = oneArray;
 
-## деструктуризация 
+## Деструктуризация
     - Объекты
         - const {one, two} = oneObject // переменные только под темиже
         - const {one, two, outside} = oneObject // если имени outside нет в объекте, то outside = undefined
@@ -40,10 +40,19 @@
         - const {name, age, ...contacts} = tom;
         - let display = ({firstName, lastName}) => console.log(`${firstName} ${lastName}`);
         
+    - Строки
+        - const [ ...rest ] = 'qwerty'; // rest = ['q','w','e','r','t','y']
+        - let x1 = 'qwerty'; 
+            [ ...x1 ] // => ['q','w','e','r','t','y']
+
     - Массивы
         - const [one, two] = oneArray // в пременные one и two запишутся первые два елемента массива
         - const [, , one, two] = oneArray // в пременные one и two запишутся 3 и 4 елементы массива
         - const [one, two, ...rest] = oneArray // в пременные one и two запишутся первые два елемента массива, а остальные в переменную rest
+        - const fruits = ["Bananas", "Oranges", "Apples", "Mangos"];
+            - let {[0]:fruit1 ,[1]:fruit2} = fruits; // вызов конкретных переменных
+        - let firstName = "John", lastName = "Doe";
+            - [firstName, lastName] = [lastName, firstName]; // поменять значения переменных между ними.
 
 ## JSON
     let myJson = JSON.stringify(myObject);
