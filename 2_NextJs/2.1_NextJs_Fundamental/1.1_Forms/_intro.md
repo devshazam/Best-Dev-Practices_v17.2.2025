@@ -14,3 +14,4 @@
         - ⛔React-Hook-Form
             ⛔- Не универсальная = для каждой UI библиотеки требуется свой пакет
             - AntD - https://github.com/jsun969/react-hook-form-antd
+        - import { useFormState } from "react-dom";
