@@ -12,7 +12,8 @@
         - Blob/BufferSource
         - URLSearchParams для отправки данных в кодировке x-www-form-urlencoded
 
-# Input 
-    - input file - предоставляет url = "blob:http://example.com/12345"
-        - Преобразование в BLOB - означает что  картинка скачается
-        - 
+# formData
+        // if(file)formData.append('files', file);
+        // if(fileList[0] && fileList[0].thumbUrl) {const B64_TO_BLOB = b64toBlob(fileList[0].thumbUrl.split(",")[1], 'image/jpg');
+        // if(fileList[0] && fileList[0].thumbUrl) formData.append('files', fileList[0].thumbUrl);
+        // if(file)formData.append('files1', B64_TO_BLOB);}
