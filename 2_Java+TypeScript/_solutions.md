@@ -6,3 +6,6 @@
 
 ## удалить все дубли из массива
         - uniqueArray = a.filter(function(item, pos) { return a.indexOf(item) == pos; })
+
+## Поменять значения переменных местами если одно больше другого
+        if(x2.length > x1.length) [x1, x2] = [x2, x1];

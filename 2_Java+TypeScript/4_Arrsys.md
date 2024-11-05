@@ -75,7 +75,7 @@ indexOf() -> return NUMBER(index | -1)
 
 
 
-slice(start, end) -> return DIFFERENT NEW VALUE
+        (start, end) -> return DIFFERENT NEW VALUE
         // вернет массив элементов от start до end
         let arr = ['a', 'b', 'c', 'd', 'e'];
         let sub = arr.slice(1);

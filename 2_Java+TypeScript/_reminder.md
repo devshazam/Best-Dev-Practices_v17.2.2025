@@ -72,6 +72,5 @@
         Object.keys(devices).length // Проверка массива на пустоту 
 
 ## UNICODE
-    - let text = "HELLO WORLD";
-        let code = text.charCodeAt(0); // return 72 из таблицы Юникода
+    - let code = "HELLO".charCodeAt(0); // return 72 первая буква 'H' из таблицы Юникода 
     - let char = String.fromCharCode(65); // вернет символ по его цифре юникода
