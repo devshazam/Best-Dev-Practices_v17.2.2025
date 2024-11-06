@@ -5,3 +5,6 @@
     - https://medium.com/@mak-dev/zustand-with-next-js-14-server-components-da9c191b73df
     - https://medium.com/@imvinojanv/effortless-state-management-in-next-js-with-zustand-49637be53e35
     - https://medium.com/globant/react-state-management-b0c81e0cbbf3
+
+    - Картинки в стейте
+        - https://github.com/MersadHabibi/Portfolio

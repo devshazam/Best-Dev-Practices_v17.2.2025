@@ -1,0 +1,1 @@
+- BP: https://github.com/designly1/nextjs14-data-fetching-examples
