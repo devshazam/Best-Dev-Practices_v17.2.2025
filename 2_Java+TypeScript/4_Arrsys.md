@@ -5,7 +5,7 @@
 Заполнение массива элементами
         let x1 = []
         x1[1] = 2 
-        console.log(x1) // return [undefind, 2]
+        console.log(x1) // return [2]
 
 In
         console.log(0 in array) // вернет boolean если в массиве есть свойство с позицией 0
