@@ -9,3 +9,11 @@
 
 ## Поменять значения переменных местами если одно больше другого
         if(x2.length > x1.length) [x1, x2] = [x2, x1];
+
+## Codewar
+         let x1 = 0
+        for( let x = 0; x < arr.length; x++){
+                if(){
+                }else{
+                }
+        }
