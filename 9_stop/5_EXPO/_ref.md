@@ -1,0 +1,7 @@
+- https://docs.expo.dev/
+    - UI Libruaris
+        - https://docs.nativebase.io/menu
+        - https://wix.github.io/react-native-ui-lib/docs/components/navigation/TabController/TabController.TabBarItem
+        - https://akveo.github.io/react-native-ui-kitten/docs/components/top-navigation/overview#topnavigation
+        - https://magnus-ui.com/docs/select/
+        - https://reactnativeelements.com/docs/components/header

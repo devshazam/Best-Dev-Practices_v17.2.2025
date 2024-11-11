@@ -1,0 +1,13 @@
+- https://habr.com/ru/companies/otus/articles/770606/
+- https://github.com/eternnoir/pyTelegramBotAPI/blob/master/examples/payments_example.py
+- https://pytba.readthedocs.io/en/latest/sync_version/index.html
+- https://habr.com/ru/articles/666278/
+- https://pypi.org/project/pyTelegramBotAPI/
+- https://habr.com/ru/articles/775630/
+- https://medium.com/@calixtemayoraz/step-by-step-guide-to-build-a-telegram-chatbot-with-a-simple-webapp-ui-using-python-44dca453522f
+- https://github.com/Noguzadericshenskiy/Telebot_example/blob/main/src/main.py
+- https://github.com/svishnevskii/telegram_wireguard/blob/master/main.py#L43
+
+    - Telegramm Telebot
+        - https://github.com/suquant/wgrest
+        - https://core.telegram.org/bots/features
