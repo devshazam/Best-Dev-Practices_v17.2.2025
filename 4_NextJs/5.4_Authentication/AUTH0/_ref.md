@@ -1,2 +1,0 @@
-- https://auth0.com/docs/quickstart/webapp/nextjs/01-login
-- https://auth0.github.io/nextjs-auth0/modules/client.html#useUser

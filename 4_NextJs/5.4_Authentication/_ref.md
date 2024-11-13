@@ -1,2 +1,4 @@
-- AUTH0 - защита страниц
+- AUTH0
     - https://medium.com/@turingvang/auth0-and-next-js-05d855c4dfc4
+    - https://auth0.com/docs/quickstart/webapp/nextjs/01-login
+    - https://auth0.github.io/nextjs-auth0/modules/client.html#useUser
