@@ -1,11 +1,4 @@
 # 1 Naming Convention: 
-(https://dev.to/sathishskdev/part-1-naming-conventions-the-foundation-of-clean-code-51ng)
-    - JavaScript:
-        - let userName = "sathishskdev";
-        - const getFullName = () => {...}
-        - const BASE_PATH = "https://domain.services/api";
-        - const userNames = { userName: "sathishskdev" }
-
     - React Component
       const ToDo = () => {...} // PascalCase
     - root

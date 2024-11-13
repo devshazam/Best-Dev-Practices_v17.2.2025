@@ -1,1 +1,0 @@
-- https://blog.designly.biz/next-js-14-data-fetching-paradigms-client-vs-servers
