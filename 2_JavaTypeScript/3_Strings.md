@@ -4,5 +4,4 @@
 
 - Пребразование в строку
     - String(number)
-    - number.toString()
     

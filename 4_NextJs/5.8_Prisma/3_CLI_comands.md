@@ -1,2 +1,0 @@
-## 
-    `npx prisma db push`

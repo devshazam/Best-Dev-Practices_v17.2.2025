@@ -20,11 +20,10 @@ Array.from('abcde')
 Array(n).fill(0)
 new Array(3)
 
-# METHODS ##################################################################################
-
-## delete -> return MODIFIED SAME ARRAY
-        let x1 = [1, 'd']
-        delete x1[0] // return [undefined, 'd']
+# Методы
+### delete()
+        let x1 = [1, 'd']; delete x1[0]
+                 // return [undefined, 'd']
 
 ## Array.isArray() - return BOOLEAN
         let fruits = ["Banana", "Orange", "Apple", "Mango"];
