@@ -7,3 +7,13 @@
 
     export default function getName(){}
         import varName from './Test.js'; // имя импрота (varName) не имеет значение
+
+
+# COMMON style
+        module.exports = math;
+            const math = require('./math'); // импортирует объект math
+        
+        module.exports = {square, cube};
+            const {square, cube} = require('./math'); // деструктуризация объекта
+
+

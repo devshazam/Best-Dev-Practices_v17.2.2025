@@ -8,25 +8,12 @@
     - toString
         `` + number;
         String(number);
-## Loops 
-    for (let x; x <= 3; x++) { ... } // 
-
-    while (x < 10){ ... } // 
-
-    NOT USAGE: из-за автоопределения циклы возвращают разный x (String and Number)
-        for (let x in var){ ... } // FOR_INDEX - loop index of String, Array, Object
-            x return STRING !!!
-        for (let x of var){ ... } // FOR_VALUE - loop value of String, Array 
 
 
 ## Conditions 
     - if ( (e.ctrlKey || e.metaKey) && (e.key === 'Enter' || e.key === 'NumpadEnter') )
     - let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
 
-## Timeout
-    setTimeout(function() {alert('!'); }, 3000); 
-    
-        
 ## Rest
     Rest
         - func(a, b, ...rest);
