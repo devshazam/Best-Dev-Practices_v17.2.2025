@@ -1,7 +1,7 @@
 # Использовать для обоснования выбора
 ## Имеющиеся лучщие варианты:
 >>  - SWR + server action
-        - удобно использовать server action
+        - удобно использовать server action, есть кеширование
     - React_Query + API routs
         - слишком громоздкая конструкция по сравнению с server action
     - fetch, axios

@@ -1,0 +1,29 @@
+# Преобразование типов
+	- ref:
+		- https://medium.com/@mila.mirovic98/javascript-fundamentals-type-conversion-coercion-8bbba10c9925
+
+## Convert to other type
+    - toBoolean
+        !!string; // true
+        Boolean(string); // true
+    - toNumber
+        ++string;
+        Number(string);
+    - toString
+        `` + number;
+        String(number);
+
+
+
+## Check_type
+    Array 
+        letters instanceof Array // 
+        Array.isArray() 
+        array.length
+
+    Number
+        isNaN('we') // проверка на число
+        Number.isInteger(+width) // проверка на целое число
+
+    Object
+        Object.keys(devices).length // Проверка массива на пустоту 

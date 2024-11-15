@@ -22,25 +22,24 @@ new Array(3)
 
 # Методы
 ### delete()
-        let x1 = [1, 'd']; delete x1[0]
-                 // return [undefined, 'd']
+	let x = [1, 'd']; 
+	delete x[0];
+		x => [undefined, 'd']
 
-## Array.isArray() - return BOOLEAN
-        let fruits = ["Banana", "Orange", "Apple", "Mango"];
-        let result = Array.isArray(fruits); // return true
+### Array.isArray()
+	let x = Array.isArray([1,2,3,4]);
+		x => true
+### map()
+	let x1 = [65, 44, 12, 4].map((elem, index) => { return elem * 10 })
+		x1 => [650, 440, 120, 40]
 
-## ⛔map() -> return DIFFERENT NEW ARRAY
-        let numbers = [65, 44, 12, 4];
-        let x1 = numbers.map((elem, index) => { return elem * 10}) // return [650, 440, 120, 40]
-        ⛔БЕЗ присваивания "let x1 = " цикл map может давать ошибку!!⛔
-
-## ⛔forEach() -> return void
+### forEach() -> return void
         ⛔break не работвает!
         ⛔return не работвает!
         let arr = [1, 2, 3, 4, 5];
         arr.forEach((elem) => {console.log(elem);});
 
-## reduce() -> return DIFFERENT NEW VALUE
+### reduce() -> return DIFFERENT NEW VALUE
         let numbers = [175, 50, 25];
         let NEW = numbers.reduce((total, num) => total - num, 0); // return 100
 

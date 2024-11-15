@@ -1,23 +1,4 @@
-## Convert to other type
-    - toBoolean
-        !!string; // true
-        Boolean(string); // true
-    - toNumber
-        ++string;
-        Number(string);
-    - toString
-        `` + number;
-        String(number);
 
-
-## Conditions 
-    - if ( (e.ctrlKey || e.metaKey) && (e.key === 'Enter' || e.key === 'NumpadEnter') )
-    - let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
-
-## Rest
-    Rest
-        - func(a, b, ...rest);
-        - const [one, two, ...rest] = oneArray;
 
 ## Деструктуризация
     - Объекты
@@ -45,18 +26,6 @@
     let myJson = JSON.stringify(myObject);
     let myObject = JSON.parse(myJson);
 
-## Check_type
-    Array 
-        letters instanceof Array // 
-        Array.isArray() 
-        array.length
-
-    Number
-        isNaN('we') // проверка на число
-        Number.isInteger(+width) // проверка на целое число
-
-    Object
-        Object.keys(devices).length // Проверка массива на пустоту 
 
 ## UNICODE
     - let code = "HELLO".charCodeAt(0); // return 72 первая буква 'H' из таблицы Юникода 
