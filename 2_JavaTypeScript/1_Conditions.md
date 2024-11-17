@@ -4,3 +4,6 @@
     - let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
 
 	- (() => false ? 4 : 8)()
+
+
+	     - [firstName, lastName] = [lastName, firstName]; /
