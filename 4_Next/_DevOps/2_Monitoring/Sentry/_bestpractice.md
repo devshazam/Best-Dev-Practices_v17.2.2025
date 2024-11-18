@@ -1,0 +1,2 @@
+- Server Actions with Sentry
+	- https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/#instrument-nextjs-server-actions
