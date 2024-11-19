@@ -13,11 +13,11 @@
         - .header-container { display: "flex"; } // kebab-case
         - .headerContainer { display: "flex"; } // Css classes in module css
 
-## Error: reading property of undefined
-    - ref = 
-    - key = <Link> 
-    - desc = При переходе между страницами сайта с использованием <Link> стейты в zustand не обновляются!
-    - sol = замена <Link> на <a>
+## Error: console.log() в серверных аомпонентах не видны в консоли браузера
+    - ref =
+    - key = console.log()
+    - desc = console.log() в клиентских компонентах выводится в консоль браузера, а в серверных в терминал!
+    - sol = console.log() в клиентских компонентах выводится в консоль браузера, а в серверных в терминал!
 
 ## 'useClient'
 	- Дочерние елементы клиентского компонента АВТОматически становятся клиентскими

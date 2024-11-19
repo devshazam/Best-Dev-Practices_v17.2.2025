@@ -1,9 +1,17 @@
-# 
-## Conditions 
-    - if ( (e.ctrlKey || e.metaKey) && (e.key === 'Enter' || e.key === 'NumpadEnter') )
-    - let a = varOne || 6; // если varOne не существует, то будет 6, НО varOne должно быть задано undefined 
+# Conditions 
+    - Nested conditional
+		if((1 > 2 || 1 > 2) && (1 > 2 || 1 > 2))
+    - Условное присвоение
+		let a = varOne || 6;
+	- Перемена значений ф-ций
+		[firstName, lastName] = [lastName, firstName];
 
-	- (() => false ? 4 : 8)()
+# is Number ?
+	Number.isInteger(123);
+    isNaN('we') // проверка на число
+# Array 
+	letters instanceof Array // 
+	Array.isArray() 
+	array.length
 
 
-	     - [firstName, lastName] = [lastName, firstName]; /

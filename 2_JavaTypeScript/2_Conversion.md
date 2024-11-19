@@ -15,15 +15,3 @@
 
 
 
-## Check_type
-    Array 
-        letters instanceof Array // 
-        Array.isArray() 
-        array.length
-
-    Number
-        isNaN('we') // проверка на число
-        Number.isInteger(+width) // проверка на целое число
-
-    Object
-        Object.keys(devices).length // Проверка массива на пустоту 
