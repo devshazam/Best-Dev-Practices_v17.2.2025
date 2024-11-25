@@ -56,3 +56,20 @@
 	- string.charAt(0).toUpperCase() + string.slice(1)
 
 
+# Next prime
+	function nextPrime(previousPrime) {
+    let value = previousPrime;
+    if (value > 2) {
+        var i, q;
+        do {
+            i = 3;
+            value += 2;
+            q = Math.floor(Math.sqrt(value));
+            while (i <= q && value % i) {
+                i += 2;
+            }
+        } while (i <= q);
+        return value;
+    }
+    return value === 2 ? 3 : 2;
+}

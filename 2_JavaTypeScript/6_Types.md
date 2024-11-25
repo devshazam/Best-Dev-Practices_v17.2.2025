@@ -2,8 +2,7 @@
     - Тип переменным задается явно (самостоятельно) и автоматически при объявлении
     - Тип нужно объявлять для переменных , ф-ций, цикла for
 
-# Удалить свойство из объекта
-    const {descriptionCard, ...secondObject } = cardData;
+
 
 # Удалить свойство из типа
     type ExcludedType = ExcludeProps<FullType, 'prop2'>;

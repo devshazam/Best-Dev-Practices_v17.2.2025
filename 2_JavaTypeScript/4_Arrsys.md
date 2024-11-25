@@ -112,3 +112,36 @@ unshift() -> return MODIFIED SAME ARRAY
 
 
 
+
+
+
+function longestSlideDown (pyramid) {
+
+  let x1 = R(pyramid, [pyramid[0]], 1)
+  console.log(x1)
+  let f = Math.max(...x1)
+//   console.log(f)
+  return f
+  
+}
+
+
+function R(pyramid, arr, n){
+  if(pyramid[n]){
+    
+    let x1 = Array(n + 1).fill([])
+	console.log(x1, 2)
+    for(let z in arr){
+      
+        for(let x in arr[z]){
+            x1[z] = [...x1[z], arr[z][x] + pyramid[n][+x]];
+            x1[+z + 1] = [...x1[+z + 1], arr[z][x] + pyramid[n][+x + 1]];            
+        }
+
+    }
+//       console.log(x1)
+    return R(pyramid, x1, +n + 1)
+  }else{
+    return arr
+  }
+}
