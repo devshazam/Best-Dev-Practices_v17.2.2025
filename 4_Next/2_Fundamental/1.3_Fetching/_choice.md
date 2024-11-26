@@ -1,8 +1,8 @@
-# Использовать для обоснования выбора
-## Имеющиеся лучщие варианты:
+# Выбор:
 >>  - SWR + server action
-        - удобно использовать server action, есть кеширование
-    - React_Query + API routs
-        - слишком громоздкая конструкция по сравнению с server action
+        -+ минималистичность кода
+		-- sentry не работает вместе с server action
+>>  - React_Query + API routs
+        -+ sentry действует по умолчанию
     - fetch, axios
         - требуется использовать дополнительно useState + useEffect
