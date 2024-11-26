@@ -1,4 +1,4 @@
-RUN:
+# Docker run (команды):
     $ docker run <options> <container_name>
     $ docker run --name my_nginx -p 3202:3000 -it -v ${pwd}:/usr/share/nginx/html <container_name>
         $ --name my_nginx - задать собственное имя контейнера
@@ -8,11 +8,11 @@ RUN:
         $ -d // запуск в фоновом режиме
         $ --rm - удаляет контейнеры после остановки
 
-Dockerfile:
-    $ docker build -t name:teg . // построить образ из dockerfile в текущей папке
-          $ -t name:teg // испольховать свои имя и тег (можжно без тега)
+# Dockerfile (команды для файла Dockerfile):
+    $ docker build -t name:tag . // построить образ из dockerfile в текущей папке
+          $ -t name:tag // использовать свои имя и тег (можно без тега)
           $ -f dockerfile.dev // использовать данный файл для сборки
 
-Docker_Compose:
+# Docker_compose (команды для файла Docker_compose):
     $ docker compose up # Execute (similar with docker run -it)
     $ docker compose up -d 
