@@ -1,4 +1,4 @@
-# 1 Naming Convention: 
+# _convention_ 
     - React Component
       const ToDo = () => {...} // PascalCase
     - root
@@ -13,14 +13,3 @@
         - .header-container { display: "flex"; } // kebab-case
         - .headerContainer { display: "flex"; } // Css classes in module css
 
-## Error: console.log() в серверных аомпонентах не видны в консоли браузера
-    - ref =
-    - key = console.log()
-    - desc = console.log() в клиентских компонентах выводится в консоль браузера, а в серверных в терминал!
-    - sol = console.log() в клиентских компонентах выводится в консоль браузера, а в серверных в терминал!
-
-## 'useClient'
-	- Дочерние елементы клиентского компонента АВТОматически становятся клиентскими
-
-## environment variabels
-	- Для использования переменной из .env файла в клиентских компонентах - ее нужно сделать публичной, добавив вначале `NEXT_PUBLIC_`

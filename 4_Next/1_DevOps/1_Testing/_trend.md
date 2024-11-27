@@ -1,5 +1,5 @@
-# Выбор = Jest
->>	- Jest 
+# Рейтинг:
+1_	- Jest 
 		-+ Популярность: много гайдов, в тренде; 
-	- React Testing Library (RTL)
-	- Vitest
+2_	- React Testing Library (RTL)
+3_	- Vitest

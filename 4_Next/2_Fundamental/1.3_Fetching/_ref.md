@@ -1,4 +1,4 @@
 - ?
-    - https://github.com/designly1/nextjs14-data-fetching-examples
 - SWR
     - https://blog.designly.biz/next-js-14-data-fetching-paradigms-client-vs-servers
+    - https://github.com/designly1/nextjs14-data-fetching-examples

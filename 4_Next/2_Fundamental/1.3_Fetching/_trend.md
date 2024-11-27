@@ -2,7 +2,10 @@
 >>  - SWR + server action
         -+ минималистичность кода
 		-- sentry не работает вместе с server action
+		-- 
 >>  - React_Query + API routs
         -+ sentry действует по умолчанию
-    - fetch, axios
+    - axios
+        - требуется использовать дополнительно useState + useEffect
+    - fetch
         - требуется использовать дополнительно useState + useEffect
