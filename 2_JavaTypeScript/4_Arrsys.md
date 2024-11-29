@@ -17,6 +17,7 @@ at()
 Array(5)
 Array.apply(null, Array(5)).map(function () {})
 Array.from('abcde')
+	return Array.from(Array(n), (_,i)=>++i)
 Array(n).fill(0)
 new Array(3)
 
@@ -68,6 +69,7 @@ indexOf() -> return NUMBER(index | -1)
         let index = fruits.indexOf("Apple"); // return 2
         
 массив.findIndex(функция);
+
 
 
 
