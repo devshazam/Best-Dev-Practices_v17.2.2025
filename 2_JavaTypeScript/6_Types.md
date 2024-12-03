@@ -7,7 +7,8 @@
 # Удалить свойство из типа
     type ExcludedType = ExcludeProps<FullType, 'prop2'>;
     - https://www.geeksforgeeks.org/how-to-exclude-property-from-type-in-typescript/
-
+	- Удалить  null и undefined 
+		- In TypeScript, a postfix ! removes null and undefined
 
 
 # as - переопределяет тип любой переменной

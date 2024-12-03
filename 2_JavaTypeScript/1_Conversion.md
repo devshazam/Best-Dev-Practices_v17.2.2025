@@ -10,6 +10,7 @@
         ++string;
         Number(string);
     - toString
+		`${number}`
         `` + number;
         String(number);
 

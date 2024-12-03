@@ -39,7 +39,7 @@
         - var a = 'a'.charCodeAt(0).toString(2); 
 
 ## удалить все дубли из массива
-        - uniqueArray = a.filter(function(item, pos) { return a.indexOf(item) == pos; })
+        - let uniqueArray = x1.filter(function(item, pos) { return x1.indexOf(item) == pos; })
 
 ## Поменять значения переменных местами если одно больше другого
         if(x2.length > x1.length) [x1, x2] = [x2, x1];
