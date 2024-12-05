@@ -6,6 +6,7 @@
 	- Перемена значений ф-ций
 		[firstName, lastName] = [lastName, firstName];
 # Conditional chains
+	⛔Важно: разветвление должны идти в правую сторону 
 	function example() {
 	return condition1 ? value1
 		: condition2 ? value2

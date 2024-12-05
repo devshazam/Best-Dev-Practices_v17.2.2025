@@ -11,5 +11,5 @@
 ## Внесение изменений в shema.prisma
   	$ npx prisma db push // Вносит изменения в БД без удаления данных и генерирует клиент
 		$ prisma generate // генерирует клиент
-	$ prisma migrate reset // Удалить все из БД и запустить seeding
+	$ prisma migrate reset // Удалить все из БД и запустить seeding ⛔в Supabase не работает
 		$ npx prisma db seed // запускает seeding

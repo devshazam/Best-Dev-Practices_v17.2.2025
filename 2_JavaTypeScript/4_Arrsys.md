@@ -59,7 +59,7 @@ every() -> return BOOLEAN
         let ages = [32, 33, 16, 40];
         ages.every(age => age > 18) // return false
 
-filter() -> return DIFFERENT NEW VALUE
+filter() -> return DIFFERENT NEW ARRAY
         // вернет массив только с елементами прошедшими тест
         let ages = [32, 33, 16, 40];
         let x1 = ages.filter(age => age >= 18); // x1 -> [32, 33, 40]
