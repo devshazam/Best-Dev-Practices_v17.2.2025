@@ -13,3 +13,6 @@
 		$ prisma generate // генерирует клиент
 	$ prisma migrate reset // Удалить все из БД и запустить seeding ⛔в Supabase не работает
 		$ npx prisma db seed // запускает seeding
+
+
+		
