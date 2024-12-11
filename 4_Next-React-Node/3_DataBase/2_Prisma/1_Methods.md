@@ -1,2 +1,0 @@
-- findUnique(): object | null - поиск по уникальному значению (id, email)
-- 
