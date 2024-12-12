@@ -15,3 +15,6 @@
     -   x1[z2 as keyof typeof x1]
 
 
+if (files[x] instanceof File) {
+		const extension = (files[x] as File).type.split('/')[1];
+}

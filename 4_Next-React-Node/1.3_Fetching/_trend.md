@@ -1,7 +1,8 @@
 # Тренд:
 	- Server Action
-		- From Server
-			- Only Server action - call from await OR form-action
+		- From Server (Only Server action - call from await OR form-action)
+			- Ошибки из ServerAction НЕ передаются в catch вызвовшей ф-ции - она их не видит
+				- https://joulev.dev/blogs/throwing-expected-errors-in-react-server-actions
 		- From Client
 			- SWR
 				-+ минималистичность кода
