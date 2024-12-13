@@ -1,6 +1,6 @@
 /* Basic USAGE:*/
 
-	const { data, isLoading, mutate, error, isValidating } = useSWR(key, fetcher)
+	const { data, isLoading, mutate, isValidating } = useSWR(key, fetcher)
 
 /*	_feature: 
 		- key - ключ кеширования
@@ -29,7 +29,7 @@
 
 export default function UserButton(){
 
-	const { data, isLoading, isValidating } = useSWR(() => (user && user.sub) ? ['/api/user/get-orders', user.sub] : null, ([url, id]) => getTenOrdersById(url, id))
+	const { data, isLoading, isValidating, mutate } = useSWR(() => (user && user.sub) ? ['/api/user/get-orders', user.sub] : null, ([url, id]) => getTenOrdersById(url, id))
 	/* Вариант 2 (облегченный):
 	const { data: newName, isLoading, mutate } = useSwr('/api/', url => getPriceByName(url));
 	*/

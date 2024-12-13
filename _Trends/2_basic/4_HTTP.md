@@ -16,6 +16,7 @@ starting line
 
 Headers
     Headers  (General Headers)
+		Authorization // используется для авторизации для передачи токена
         Host: example.com // название хоста
         Date: Wed, 21 Oct 2020 07:28:00 GMT // время запроса
         Last-Modified: Sat, 16 Jan 2020 21:16:42 GMT // время последнего изменения контента
