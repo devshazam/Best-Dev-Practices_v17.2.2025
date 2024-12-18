@@ -52,6 +52,11 @@
                 }
         }
 
+## Последовательность остатка
+	function duckDuckGoose(players, goose) {
+		return players[(goose-1)%players.length].name
+	}
+
 # Строки
 	- string.charAt(0).toUpperCase() + string.slice(1)
 
