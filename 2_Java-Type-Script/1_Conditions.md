@@ -15,10 +15,16 @@
 
 	n * (n % 2 ? 9 : 8);
 
-# is Number ?
+# Falsy = 6 
+	false, 0, '', null, indefined, NaN
+
+# Check:
+## Only null and undefined
+	if(variable == null)
+## is Number ?
 	Number.isInteger(123);
     isNaN('we') // проверка на число
-# Array 
+## Array 
 	letters instanceof Array // 
 	Array.isArray() 
 	array.length

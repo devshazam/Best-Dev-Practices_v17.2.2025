@@ -4,11 +4,11 @@
 
 ## Convert to other type
     - toBoolean
-        !!string; // true
-        Boolean(string); // true
+        !!variable; // true
+        Boolean(variable); // true
     - toNumber
-        ++string;
-        Number(string);
+        ++variable;
+        Number(variable);
     - toString
 		`${number}`
         `` + number;
