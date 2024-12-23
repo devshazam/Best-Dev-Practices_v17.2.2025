@@ -7,5 +7,9 @@
 		- JSON.stringify(orderList)
 
 	- Server и Client технологии
-		- Server: Midlaware, server component
-		- Client: State storages: Zustand, Client component
+		- Server: 
+			- Midlaware, 
+			- MetaData (статическая и динамическая)
+		- Client: 
+			- State storages: Zustand
+			- AntD (некоторые компоненты)
