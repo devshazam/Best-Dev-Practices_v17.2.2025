@@ -1,5 +1,8 @@
 # Тренд:
 	- Server Action
+		- Общие Ограничения Server Action
+			-- Vercel - ограничение на размер тела ф-ции 
+				- https://vercel.com/docs/functions/runtimes#request-body-size
 		- Server and Client with SWR
 			-- Ошибки из ServerAction НЕ передаются в catch вызвовшей ф-ции - она их не видит
 				- Свойство swr error получает данные ошибки только если убрать try...catch в неудобном формате
@@ -9,7 +12,9 @@
 			-- middleware не работает
 			-- cron задачи не работают
 			-- Не работает POST c FormData
-
+		- Server Action Only
+			- Вызов с Server = асинхронный вызов в теле главной ф-ции
+			- Вызов с Client = асинхронный вызов при событии onClick или через useEffect
 	- React_Query + API routs
         -+ sentry действует по умолчанию
     - axios

@@ -29,3 +29,5 @@
 		- sitemap
 		- Использовать семантические теги:
 			- <header><h1><nav><main><section><h2><article><footer>
+	- LCP — показатель Largest Contentful Paint
+		- Уменьшить кол-во картинок на первом экране сайта
