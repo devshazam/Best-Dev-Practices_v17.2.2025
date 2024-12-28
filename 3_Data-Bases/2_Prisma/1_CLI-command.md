@@ -2,7 +2,7 @@
     $ npm install prisma --save-dev
     $ npx prisma init
     $ npm install @prisma/client
-    $ npx prisma migrate dev --name <name> // Создать миграцию при внесении изменений в shema
+    $ npx prisma migrate dev --name init // Создать миграцию при внесении изменений в shema
       - Создаст файл миграции в каталоге prisma/migrations. 
       - Создаст файл миграции SQL для базы данных.
 
