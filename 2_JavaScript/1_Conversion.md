@@ -9,6 +9,7 @@
     - toNumber
         ++variable;
         Number(variable);
+		'' * number;
     - toString
 		`${number}`
         `` + number;
