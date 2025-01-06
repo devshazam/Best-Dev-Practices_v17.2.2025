@@ -15,4 +15,4 @@
 
 # Docker_compose (команды для файла Docker_compose):
     $ docker compose up # Execute (similar with docker run -it)
-    $ docker compose up -d 
+    $ docker compose up -d --no-cache

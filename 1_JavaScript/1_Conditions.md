@@ -28,5 +28,6 @@
 	letters instanceof Array // 
 	Array.isArray() 
 	array.length
-
+## is Object
+	typeof yourVariable === 'object' && yourVariable !== null
 

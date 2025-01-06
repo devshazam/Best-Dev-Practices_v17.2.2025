@@ -14,9 +14,11 @@
 
 
 # Игнорировать файл после того, как его закоммитили
-	add file to gitignore
-	git rm -r --cached <folder>
-	git rm --cached <file>
+	- add file to gitignore
+	- удалить файл их кеша
+			$ git rm -r --cached <folder>
+		OR
+			$ git rm --cached <file>
 	git status --ignored // получить список игнорируемых файлов и папок
 
 # Скопировать только выбранную папку:
@@ -26,3 +28,4 @@
 # ОШИБКИ:
     - При переименовании при котором меняется только регистр букв - гит не увидит этого!
         : <git mv old-file-name.ts new-file-name.ts>
+

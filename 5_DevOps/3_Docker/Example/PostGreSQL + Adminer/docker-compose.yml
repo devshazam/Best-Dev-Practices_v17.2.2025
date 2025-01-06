@@ -9,12 +9,12 @@ services:
       - 8080:8080
 
   postgres:
-    image: postgres:16.2
+    image: postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: 1qaz
-      POSTGRES_DB: main
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
       PGDATA: /var/lib/postgresql/data/pgdata
     ports:
       - 5432:5432
@@ -22,4 +22,4 @@ services:
       - pgdata:/var/lib/postgresql/data
 
 volumes:
-  pgdata: {}
+  pgdata: 

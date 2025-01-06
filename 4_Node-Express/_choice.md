@@ -5,8 +5,8 @@
 	- Django
 	- Flask
 	- FastAPI
-
-
+классы против модулей:
+	- https://medium.com/@araujjohnny/stop-using-javascript-classes-d0b6890ef097
 <!-- Не рекомендуется к использованию (интенсивно устаревает) -->
 	- Laravel
 		-- PHP - изолированный язык, в отличае от JS он нигде больше не нужен
