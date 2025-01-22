@@ -1,2 +1,0 @@
-- Winston
-	- https://dev.to/abhijitdotsharma/production-essentials-logging-in-nextjs-13-43l0

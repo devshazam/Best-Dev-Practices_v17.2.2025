@@ -1,0 +1,66 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  	provider 	= "postgresql"
+  	url       	= env("DATABASE_URL")
+	shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model User {
+	id              	Int       	@id @default(autoincrement())
+	name				String?
+	admin				Boolean   	@default(false)
+	super				Boolean   	@default(false)
+	email           	String    	@unique
+	emailVerified		Boolean   	@default(false)
+	phone				String?
+		// sub
+	globalId			String?		@unique
+	orders				Order[]
+	createdAt       	DateTime  	@default(now())
+
+}
+
+model Order {
+	id            	Int       	@id @default(autoincrement())
+		// Описание характеристик заказа - которые клиент вводит в input
+	feature       	String
+		// Дополнительное описание - свободное содержание
+	description   	String?
+		// Итоговая цена товара
+	price         	Float
+		// Категория товара
+	category      	String?
+		// Номер офиса
+	office        	Int     	@default(0)
+		// Скидка
+	discount      	Int?
+	payId         	String?
+	orderStatus   	Boolean   	@default(false)
+	doneStatus    	Boolean   	@default(false)
+	payStatus     	Boolean   	@default(false)
+	userId			Int
+  	user	        User 		@relation(fields: [userId], references: [id])
+	images			Image[]
+		// Вместо ID  используем email
+	responsibleId	String?
+	doneAt			DateTime?
+  	createdAt     	DateTime  	@default(now())
+} 
+
+model Image {
+  id            Int         @id @default(autoincrement())
+  orderId		Int
+  order         Order 		@relation(fields: [orderId], references: [id])
+  url			String
+  createdAt     DateTime  	@default(now())
+}
+
+model Price {
+  id            Int         @id @default(autoincrement())
+  name          String      @unique
+  jsonPrice     Json
+}

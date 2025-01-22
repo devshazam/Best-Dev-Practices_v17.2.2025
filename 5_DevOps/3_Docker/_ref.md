@@ -1,2 +1,0 @@
-- Шпаргалка
-	- https://www.dmosk.ru/miniinstruktions.php?mini=docker-compose-examples
