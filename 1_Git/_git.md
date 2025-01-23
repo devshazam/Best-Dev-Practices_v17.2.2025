@@ -1,6 +1,7 @@
 # Клонирование
 	$ git clone <repo address>
 		--filter=blob:none // Флаг - запрещает скачивание больших двоичных файлов
+	$ git clone --filter=blob:none --no-checkout <YOUR_CLONE_URL> // клонировать только конкретную папку
 
 # Глобальная конфигурация
 	git config --global credential.helper store
@@ -21,20 +22,17 @@
 			$ git rm --cached <file>
 	git status --ignored // получить список игнорируемых файлов и папок
 
-# Скопировать только выбранную папку:
-	git clone --filter=blob:none --no-checkout <YOUR_CLONE_URL>
-		git clone --filter=blob:none --no-checkout
 
-# ОШИБКИ:
-    - При переименовании при котором меняется только регистр букв - гит не увидит этого!
-        : <git mv old-file-name.ts new-file-name.ts>
+# Работа с файлами	
+	$ git rm text.txt // адлить файл из отслеживания
+	$ git mv old.txt new.txt //  переименовать файл 
+	$ git mv old/file.txt new/file.txt // переместить файл 
 
-#
 	$ git status
 	$ git log
 		$ git log -3 // отобразить последние 3 коммита
 		- 
-
+	$ git restore . // discard all unstaged changes in Git
 
 	$ git add -A // индексация файла 
 		$ git restore --staged file.txt // отмена индексации файла
@@ -60,10 +58,7 @@
 	$ git merge <branch-name> // слияние веток: выполняется из той ветки в которую хотим слиять (она останется)
 	$ git rebase master // преобразование веток
 
-# Работа с файлами	
-	$ git rm text.txt // адлить файл из отслеживания
-	$ git mv old.txt new.txt //  переименовать файл 
-	$ git mv old/file.txt new/file.txt // переместить файл 
+
 
 # GutHub
 	$ git remote add origin <URL> // <URL> нужно взять при создании нового репозитория

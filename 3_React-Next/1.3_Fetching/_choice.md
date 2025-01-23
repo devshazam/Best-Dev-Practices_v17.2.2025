@@ -1,4 +1,19 @@
 # Тренд:
+	- Server Side
+		- Внешние API (Публичные / Защищенные)
+			- fetch, 
+		- Data Bases - напрямую
+		- Server Actions (функции вызываемые атрибутом action form)
+	- Client Side
+		- API свой сервер
+			- ReactQuery
+			- Fetch
+			- Axios
+		- Server Action
+			- SWR
+
+
+
 	- Server Action
 		- Общие Ограничения Server Action
 			-- Vercel - ограничение на размер тела ф-ции 
