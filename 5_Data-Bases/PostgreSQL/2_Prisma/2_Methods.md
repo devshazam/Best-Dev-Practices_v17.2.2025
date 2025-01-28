@@ -1,5 +1,8 @@
 # 
-	- findUnique(): object | null - поиск по уникальному значению (id, email)
+	> await prisma.user.findMany() // получить всех пользователей
+	- Поиск по уникальному значению:
+		> findUnique(where: { email: 'test@prisma.io' })
+>		> {id: 1, email: ...} | null
 	- get or create:
 		const upsertUser = await prisma.user.upsert({
 			where: {
@@ -9,8 +12,9 @@
 			create: {
 				email: 'test@prisma.io',
 				name: 'Test User',
-			},
+			},	
 		})
+>		> {id: 1, email: ...} | null
 	- Count ana find many
 		const [posts, totalPosts] = await prisma.$transaction([
 			prisma.post.findMany({ where: { title: { contains: 'prisma' } } }),

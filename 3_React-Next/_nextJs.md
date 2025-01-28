@@ -21,3 +21,14 @@
 			- При множественной вложенности можно уникализировать key={'w_' + i}
 	- Hook: хуки действуют только на часть после return, иначе нужно применять useEffect
 	- ⚠️ Контекст исполнения: функции вызываемые событиями типа (onClick) имеют контекст исполнения при создании.
+
+# Объекты
+	- import { useRouter } from 'next/navigation' - https://nextjs.org/docs/app/api-reference/functions/use-router
+		- router.refresh() // перезагрузка страницы
+		- router.push('/dashboard', { scroll: false })  //переадресация страница
+		- router.replace(href: string, { scroll: boolean }) //  переадресация без перехода на адрес
+		- router.back() // перейти обратно
+		- router.forward() // перейти вперед
+	- import { usePathname, useSearchParams } from 'next/navigation'
+		- const pathname = usePathname()
+	  	- const searchParams = useSearchParams()

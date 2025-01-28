@@ -1,18 +1,26 @@
 # Тренд:
-	- Server Side
-		- Внешние API (Публичные / Защищенные)
-			- fetch, 
-		- Data Bases - напрямую
-		- Server Actions (функции вызываемые атрибутом action form)
-	- Client Side
-		- API свой сервер
-			- ReactQuery
-			- Fetch
-			- Axios
-		- Server Action
-			- SWR
+	- Fetching:
+		- Server Side
+			- fetch() - вызов внешних API (Публичные / Защищенные)
+			- orm db call - вызов базы данных напрямую
+		- Client Side
+			- useEffect + fetch - вызов собственных API сайта
 
+	- Server Action:
+		- Server Side
+			- Внешние API (Публичные / Защищенные)
+				- fetch, 
+			- Data Bases - напрямую
+			- Server Actions (функции вызываемые атрибутом action form)
+		- Client Side
+			- API свой сервер
+				- ReactQuery
+				- Fetch
+				- Axios
+			- Server Action
+				- SWR
 
+# Паралельная и последовательная выборка
 
 	- Server Action
 		- Общие Ограничения Server Action

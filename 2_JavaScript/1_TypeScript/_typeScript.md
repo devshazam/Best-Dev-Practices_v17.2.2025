@@ -18,3 +18,10 @@
 if (files[x] instanceof File) {
 		const extension = (files[x] as File).type.split('/')[1];
 }
+
+# 	Проверка объекта на принадлежность к классу
+	obj instanceof Class
+
+# Глобальные классы: 
+	- class File - 
+	- class Error - класс 

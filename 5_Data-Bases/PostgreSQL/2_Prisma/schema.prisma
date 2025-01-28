@@ -11,15 +11,20 @@ datasource db {
 
 model User {
 	id              	Int       	@id @default(autoincrement())
+				      			@id @default(cuid()) // генерация уникального id
+	// String, Int, enum
+	arrayCode			Int[]
 	name				String?
-	admin				Boolean   	@default(false)
-	super				Boolean   	@default(false)
-	email           	String    	@unique
-	emailVerified		Boolean   	@default(false)
-	phone				String?
-		// sub
-	globalId			String?		@unique
-	orders				Order[]
+	email			String		@unique
+	colors			String[] 		@default(["red", "blue", "green"])
+
+
+	super			Boolean   	@default(false)
+								@default("DefaultText") // текст по умолчанию
+								@default(5) // число по умолчанию
+	desc				Json      	@default("{ \"hello\": \"world\" }") // json
+	phone			String?
+	orders			Order[]
 	createdAt       	DateTime  	@default(now())
 
 }
@@ -59,8 +64,3 @@ model Image {
   createdAt     DateTime  	@default(now())
 }
 
-model Price {
-  id            Int         @id @default(autoincrement())
-  name          String      @unique
-  jsonPrice     Json
-}

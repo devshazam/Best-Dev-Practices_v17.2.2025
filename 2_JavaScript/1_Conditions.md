@@ -15,6 +15,10 @@
 
 	n * (n % 2 ? 9 : 8);
 
+
+beverage = age >= 21 ? "Beer" : "Juice";
+
+
 # Falsy = 6 
 	false, 0, '', null, indefined, NaN
 
