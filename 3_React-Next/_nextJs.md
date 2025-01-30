@@ -3,8 +3,7 @@
 	- Для использования переменной из .env файла в клиентских компонентах - ее нужно сделать публичной, добавив вначале `NEXT_PUBLIC_`
 	- console.log() - консоль серверных компонентов находится на сервере!
 	- Стейты при изменении перерендеривают верстку компонента, а часть до return не трогают, для этого нужен useEffect
-	- useState - если в качестве зависимости использовать объект или массив - то произойдет ошибка = стейт будет бесконечно перерендериваться!
-		- JSON.stringify(orderList)
+
 	- При переходе между страницами сайта с использованием <Link> стейты в не обновляются!
 	- Server и Client технологии
 		- Server: 
@@ -32,3 +31,5 @@
 	- import { usePathname, useSearchParams } from 'next/navigation'
 		- const pathname = usePathname()
 	  	- const searchParams = useSearchParams()
+	- import { redirect } from "next/navigation";
+		- if (!isLogin) redirect("/");

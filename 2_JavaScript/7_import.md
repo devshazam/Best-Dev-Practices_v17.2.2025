@@ -17,3 +17,6 @@
             const {square, cube} = require('./math'); // деструктуризация объекта
 
 
+# Re-export
+	> export * from '@/x-config/x1-banner';
+	⛔нельзя использовать в Nextjs - https://nextjs.org/docs/messages/export-all-in-page
