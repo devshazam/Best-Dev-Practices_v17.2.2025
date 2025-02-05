@@ -7,3 +7,8 @@
     	$ npm i <module_name> -P // перенести пакет в dependencies
     	$ npm i <module_name> -D // перенести пакет в devDependencies
     	$ npm uninstall <package-name>
+
+
+# Пакеты установки	
+	$ npm i next-auth@beta @auth/prisma-adapter @prisma/client uuid zod bcryptjs
+	$ npm i prisma @types/uuid autoprefixer @types/bcryptjs --save-dev

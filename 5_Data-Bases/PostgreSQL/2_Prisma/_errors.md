@@ -2,9 +2,6 @@
 	- key Error: P3014
 		- desc = В Облочных базах данных нужно дополнительное разрешение
 		- sol
-    	- key 
-		- desc В Облочных базах (TimeWeb) данных нужно дополнительное разрешение
-		- sol
 			- добавить shadowDatabaseUrl = env("SHADOW_DATABASE_URL") в datasource db{ }
 			- добавить в env переменную SHADOW_DATABASE_URL= с тем же значением ч
 	- key Error: can't creat additional DB client

@@ -16,3 +16,9 @@
 
 # Подключение к существующей БД
 	$ npx prisma db pull
+
+
+
+
+	/api/auth/callback/yandex
+	/api/auth/callback/Yandex
