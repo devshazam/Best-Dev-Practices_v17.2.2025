@@ -1,8 +1,8 @@
 # 
 "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "build": "next build",
     "postinstall": "prisma generate" // запускает команду после установки пакетов
   },

@@ -4,3 +4,5 @@
     - https://daily.dev/blog/form-on-react-best-practices
 - React Hook Form _ nested
     - https://jujuontheweb.medium.com/how-to-use-react-hook-form-with-your-custom-form-components-a86a1a77cf3c
+- AntD + Zustand + Server Actions + formData + 
+    - https://siamahnaf.medium.com/next-js-server-action-a-guide-to-uploading-files-to-aws-s3-00b61358536c

@@ -16,10 +16,10 @@
 		│ ├ templates
 		│ └ pages
 		│ 	├ Button.tsx // PascalCase
-		│		└ Button.modules.css // PascalCase
+		│	└ Button.modules.css // PascalCase
 		├ config
 		├ lib
-		│	├ hooks
+		│ ├ hooks
 		│ ├ types
 		│ ├ utils
 		│ └ providers
