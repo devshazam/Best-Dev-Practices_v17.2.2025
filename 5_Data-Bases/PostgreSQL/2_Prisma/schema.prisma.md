@@ -27,6 +27,8 @@ model User {
 	orders			Order[]
 	createdAt       	DateTime  	@default(now())
 
+	 @@unique([email, token]) // уникальное совместное значение - те вместе эти поля имеют уникальное значение
+
 }
 
 model Order {
