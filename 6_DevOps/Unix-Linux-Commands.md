@@ -9,6 +9,7 @@
 	$ grep <search-word> /var/log/auth.log // поиск по файлу
 
 	$ history | grep <search-word>
+		!<command-number> // вбить номер команды для повторения
 
 	$ ping domail.com // проверка привязанного IP адреса домена
 

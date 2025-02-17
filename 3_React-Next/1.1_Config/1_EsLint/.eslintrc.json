@@ -1,8 +1,9 @@
-{
-  // "extends": ["next/core-web-vitals", "next/typescript"],
-   "extends": "next", // наследование пакета правил от пакета next 
-  "rules": {
-    "no-unused-vars":"off", // не используемые переменные
-    "no-explicit-any":"off" // использование типа any в TypeScript
-  }
+{	
+	// "extends": ["next/core-web-vitals", "next/typescript"],
+	"extends": "next", // наследование пакета правил от пакета next 
+	"rules": {
+	"no-unused-vars":"off", // не используемые переменные
+	"no-explicit-any":"off", // использование типа any в TypeScript
+	"@next/next/no-img-element": "off" // не используемые элементы
+	}
 }

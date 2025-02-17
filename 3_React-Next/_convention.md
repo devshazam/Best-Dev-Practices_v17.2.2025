@@ -31,7 +31,12 @@
         - .header-container { display: "flex"; } // kebab-case
         - .headerContainer { display: "flex"; } // Css classes in module css
 
+# Naming
+	- Functions: handle, get, 
 
 
-
-
+# Возможности
+	- layout 
+		- Не может содержать 
+			- searchParam
+			- pathname

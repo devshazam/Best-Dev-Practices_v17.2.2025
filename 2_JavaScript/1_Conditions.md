@@ -2,6 +2,7 @@
     - Nested conditional
 		if((1 > 2 || 1 > 2) && (1 > 2 || 1 > 2))
     - Условное присвоение
+		varOne || 6;
 		let a = varOne || 6;
 	- Перемена значений ф-ций
 		[firstName, lastName] = [lastName, firstName];

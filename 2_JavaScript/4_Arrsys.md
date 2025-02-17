@@ -42,7 +42,7 @@ new Array(3)
 
 ### reduce() -> return DIFFERENT NEW VALUE
         let numbers = [175, 50, 25];
-        let NEW = numbers.reduce((total, num) => total - num, 0); // return 100
+        let NEW = numbers.reduce((total, num, i, array) => total - num, 0); // return 100
 
 find() -> return NEW ELEMENT
         Найдет первое совпадение в массиве согласно колбеку:
