@@ -24,7 +24,7 @@
 
 
 # Работа с файлами	
-	$ git rm text.txt // адлить файл из отслеживания
+	$ git rm text.txt // удалить файл из отслеживания
 	$ git mv old.txt new.txt //  переименовать файл 
 	$ git mv old/file.txt new/file.txt // переместить файл 
 
@@ -57,8 +57,6 @@
 >	MERGE
 	$ git merge <branch-name> // слияние веток: выполняется из той ветки в которую хотим слиять (она останется)
 	$ git rebase master // преобразование веток
-
-
 
 # GutHub
 	$ git remote add origin <URL> // <URL> нужно взять при создании нового репозитория
