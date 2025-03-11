@@ -20,6 +20,16 @@
 beverage = age >= 21 ? "Beer" : "Juice";
 
 
+const result =
+      currentEditedID !== null
+        ? await editUserAction(
+            currentEditedID,
+            addNewUserFormData,
+            "/user-management"
+          )
+        : await addNewUserAction(addNewUserFormData, "/user-management");
+
+	   
 # Falsy = 6 
 	false, 0, '', null, indefined, NaN
 
