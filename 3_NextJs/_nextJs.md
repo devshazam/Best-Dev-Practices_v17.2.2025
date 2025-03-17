@@ -31,5 +31,6 @@
 	- import { usePathname, useSearchParams } from 'next/navigation'
 		- const pathname = usePathname()
 	  	- const searchParams = useSearchParams()
+			const search = searchParams.get('search')
 	- import { redirect } from "next/navigation";
 		- if (!isLogin) redirect("/");

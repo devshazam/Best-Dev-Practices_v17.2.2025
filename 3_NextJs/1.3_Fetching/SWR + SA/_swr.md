@@ -1,7 +1,13 @@
-/* Basic USAGE:*/
-
+```js
 	const { data, isLoading, mutate, isValidating } = useSWR(key, fetcher)
 
+	// ГДЕ:
+	// 	- data - информация 
+	// 	- ⛔isLoading - статус загрузки - вместо лучше использховать 
+	// 		- isValidating
+	// 		- !data.error
+	// 	- mutate - ф-ция ревалидации
+	// 	- isValidating
 /*	_feature: 
 		- key - ключ кеширования
 			- ключ автоматически передается целиком в качестве аргумента в функцию fetcher
@@ -27,7 +33,7 @@
 				}
 */
 
-export default function UserButton(){
+export default function Testing(){
 
 	const { data, isLoading, isValidating, mutate } = useSWR(() => (user && user.sub) ? ['/api/user/get-orders', user.sub] : null, ([url, id]) => getTenOrdersById(url, id))
 	/* Вариант 2 (облегченный):
