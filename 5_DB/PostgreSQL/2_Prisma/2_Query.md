@@ -1,6 +1,5 @@
 # Создание многих записей:
-- https://www.prisma.io/docs/orm/reference/prisma-client-reference#select
-    - createMany vs createManyAndReturn
+
 ```js
     const result = await prisma.user.findMany({
     where: {
@@ -37,12 +36,3 @@
     })
     - 
 ```
-
-## READ:
-### findUnique()
-    const user = await prisma.user.findUnique({
-        where: {
-            email: 'elsa@prisma.io',
-        },
-    })
-### findFirst()

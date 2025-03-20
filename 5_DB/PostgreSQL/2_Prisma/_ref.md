@@ -1,4 +1,0 @@
-	- Консольные команды
-		- https://fig.io/manual/prisma
-	- Общие сведения
-		- https://dev.to/keshav___dev/prisma-recap-everything-you-need-in-5-minutes-cheat-sheet-19m6
