@@ -1,5 +1,6 @@
  - Шпаргалка
 	- https://www.dmosk.ru/miniinstruktions.php?mini=docker-compose-examples
+	-  https://medium.com/@itsuki.enjoy/dockerize-a-next-js-app-4b03021e084d
 	- NEXT
 		- https://iqbalpa.medium.com/dockerize-nestjs-and-postgresql-prisma-a-guide-776095d2364b
 		- https://dev.to/manuchehr/dockerize-nestjs-app-with-postgres-redis-prisma-orm-1130

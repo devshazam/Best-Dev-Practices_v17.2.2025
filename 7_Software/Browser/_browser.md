@@ -1,11 +1,8 @@
 - Расширения браузера
-    - CrxMouse: Mouse Gestures
-        - "в верх" - скролл до начала страницы
-        - "в низ" - открыть закрытую страницу с переходом на нее
-        - "в право" - закрыть все вкладки с право
-        - "в лево" - назад 
-    - AutoControl: Keyboard shortcuts, Mouse gestures
-        - F1 - перейти на левую вкладку
-        - F3 - перейти на праувую вкладку
-        - F2 - закрыть вкладку
-        - F4 - писать в поле ввода url
+	- AutoControl: Keyboard shortcuts, Mouse gestures
+		- Открывать первую вкладку гугл при открытии страница гугл
+			const w = document.querySelector(".zReHs");
+			// alert(w.href) ;
+			window.open(w.href, '_blank').focus();
+			//	window.location.replace(w.href)
+		- Закрывать пустые вкладки при открытии новых
