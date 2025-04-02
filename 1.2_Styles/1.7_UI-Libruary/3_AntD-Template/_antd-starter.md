@@ -1,4 +1,12 @@
-# 
+1. Команда установки
+	$ npm i antd @ant-design/nextjs-registry // основная установка
+	$ npm i @ant-design/v5-patch-for-react-19 // патч для Next15+
+	$ npm i npm install @ant-design/icons@5.x // установка иконок
+		- https://ant.design/components/icon#icon-demo-basic
+
+
+
+
 ```js
 # Grids:
 	<Row gutter={[16, 16]} justify={'start'} align={'top'}>

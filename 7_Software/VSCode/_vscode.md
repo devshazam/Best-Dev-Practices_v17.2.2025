@@ -7,6 +7,8 @@
 		- "list.activeSelectionBackground": "#6d17d7",
 	- Отключить цветовое выделение файлов гит в эксплоруаре
 		- git.decorations.enabled
+	- restore fullscreen
+
 # ShortCut
 	- AutoIndent code
     		- On Windows Shift + Alt + F
