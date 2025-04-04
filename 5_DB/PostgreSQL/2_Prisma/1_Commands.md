@@ -2,6 +2,7 @@
    	$ npm install @prisma/client --save-dev
 		- автоматически генерирует клиент в каталог '/node_modules/.prisma/client' (npx prisma generate)
 	$ npm install prisma
+	- ⛔вставить в packedge.json scripts: "postinstall": "prisma generate"
 	$ npx prisma init // создание файлов schema.prisma и записи в .env 
 	$ npx prisma migrate dev --name init
 		- Создаст файл миграции в каталоге prisma/migrations. 
