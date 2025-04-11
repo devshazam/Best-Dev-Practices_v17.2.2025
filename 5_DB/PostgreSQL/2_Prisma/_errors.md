@@ -8,3 +8,4 @@
 		- ref https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
 		- desc Создание больше чем 10 экземпляров prismaClient на всех ПК в интернете к облачной БД PostgresQL создает такую проблему
 		- sol применил изменения
+	- key 
