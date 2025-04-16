@@ -15,8 +15,9 @@ https://npmtrends.com/drizzle-orm-vs-prisma-vs-sequelize-vs-typeorm
 		- Mongoose
 			-+0 
 	- SQLite (для микро-сервисов)
-		- Python servers
-			-- быстрый старт
+		- Sqlite3
+	- ClickHouse
+	- RabbitMQ
 
 
 <!-- Не рекомендуется к использованию (интенсивно устаревает) -->
